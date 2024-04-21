@@ -1,13 +1,15 @@
 {
-  "name": "IACET_Performer_March_2024",
+  "name": "IACET_Performer_PerPage_March_2024",
   "projectId": "18b92566-0d23-439a-b941-a625f7674c89",
   "description": "Robotic Enterprise Framework",
   "main": "Main.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.23.2-preview]",
+    "UiPath.PDF.Activities": "3.14.1",
     "UiPath.System.Activities": "[24.2.0-preview]",
     "UiPath.Testing.Activities": "[24.2.0-preview]",
-    "UiPath.UIAutomation.Activities": "[24.2.0-preview]"
+    "UiPath.UIAutomation.Activities": "[24.2.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -93,6 +95,12 @@
     {
       "filePath": "Main.xaml",
       "uniqueId": "8308bd91-7ce1-4df3-bf71-9ce8f6edbd5b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Workflow.cs",
+      "uniqueId": "4faa98ac-04ba-4350-bf5b-86fe07d25074",
       "input": [],
       "output": []
     }
