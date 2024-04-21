@@ -19,6 +19,17 @@
         "ActivityName": "Folder Exists",
         "IsTransient": false
       }
+    ],
+    "To_Get_PDSR_From_IACET.xaml": [
+      {
+        "IsEnabled": true,
+        "Annotation": null,
+        "Id": "e8cfc128-c501-45c2-94b2-2a9d41212ad1",
+        "ActivityIdRef": "NSelectItem_1",
+        "ActivityId": "1.91",
+        "ActivityName": "Select Item 'State'",
+        "IsTransient": false
+      }
     ]
   }
 }
